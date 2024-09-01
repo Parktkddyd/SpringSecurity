@@ -9,7 +9,6 @@ public class HomeController {
 
     @RequestMapping(value = "hello", method = RequestMethod.GET)
     public String home(){
-
         return "hello";
     }
 }
